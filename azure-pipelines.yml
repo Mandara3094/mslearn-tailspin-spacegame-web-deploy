@@ -133,7 +133,7 @@ stages:
   jobs:
   - deployment: Deploy
     pool:
-      vmImage: 'ubunutu-18.04'
+      vmImage: 'ubuntu-18.04'
     environment: staging
     variables:
     - group: 'Release'
